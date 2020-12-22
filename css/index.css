@@ -28977,6 +28977,7 @@ footer p, footer div {
 	width: 80%;
 	color: #999;
 	margin: 0px auto;
+	padding-bottom: 50px;
 }
 @media (max-width: 991px) {
 .met-index-body {
@@ -31045,7 +31046,7 @@ a:hover {
 .container-book {
 	width: 1200px;
 }
-
+}
 .navbar {
 	min-height: 48px;
 }
