@@ -2276,7 +2276,7 @@ tbody.collapse.in {
 	height: 1px;
 	margin: 10px 0;
 	overflow: hidden;
-	background-color: #e4eaec
+	background-color: #76838f
 }
 .dropdown-menu>li>a {
 	display: block;
@@ -28098,7 +28098,7 @@ img.imgloading:not([src*=base64]), img.slick-loading:not([src*=base64]) {
 	background: #fff;
 }
 .site-header.position1 .nav > li > a {
-	color: #222 !important;
+	color: #76838f !important;
 }
 .site-header #tophead {
 	padding: 6px 0;
@@ -28174,7 +28174,7 @@ img.imgloading:not([src*=base64]), img.slick-loading:not([src*=base64]) {
 	height: 60px;
 }
 .met-nav .nav > li > a {
-	color: #ffffff !important;
+	color: #76838f !important;
 	transition: color 0.5s;
 	-moz-transition: color 0.5s;
 	-webkit-transition: color 0.5s;
@@ -28261,6 +28261,7 @@ img.imgloading:not([src*=base64]), img.slick-loading:not([src*=base64]) {
 	margin-right: 120px;
 }
 .met-nav .nav > li > a {
+	color:#666 !important;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	height: 60px;
