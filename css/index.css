@@ -551,7 +551,7 @@ h3 {
 
 .h4,
 h4 {
-	font-size: 18px
+	font-size: 26px
 }
 
 .h5,
@@ -5490,6 +5490,7 @@ a.thumbnail:hover {
 
 .media,
 .media-body {
+	padding-top: 16px;
 	overflow: hidden;
 	zoom: 1
 }
@@ -7044,7 +7045,9 @@ button.close {
 }
 
 .invisible {
-	visibility: hidden
+	visibility: hidden;
+	margin: 0;
+
 }
 
 .text-hide {
@@ -13561,7 +13564,7 @@ button.list-group-item-dark.active:hover {
 	display: block;
 	padding: 5px 0 0;
 	margin: 0;
-	font-size: 14px;
+	font-size: 16px;
 	color: #76838f
 }
 
@@ -39137,7 +39140,7 @@ footer div {
 	border-radius: 5px;
 	color: #514a45;
 	border: 1px solid #514A45;
-	margin-top: 50px;
+	margin-top: 20px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -39152,6 +39155,7 @@ footer div {
 	background-color: #e7272d;
 	border-color: #e7272d;
 }
+
 
 /* 服务 */
 .met-index-about [class*=blocks] li {
