@@ -1,4 +1,5 @@
 /**/
+
 var M = document.querySelector('meta[name="generator"]').getAttribute('data-variable'),
 	D = M.split(',');
 M = new Array();
@@ -23507,6 +23508,11 @@ function videoSizeRes(obj) {
 		}
 	});
 }
+
+
+
+
+
 /*sys.js*/
 // 访问统计
 if (M["module"] && M["id"]) {
@@ -24000,3 +24006,6 @@ $.ajax({
 		}
 	}
 });
+
+
+
