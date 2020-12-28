@@ -15,16 +15,20 @@
 
 		<link rel='stylesheet' href='css/index.css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> -->
-		<link href="css/jquery.slideBox.css" type="text/css" rel="stylesheet">
 		
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+		<!-- <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"> -->
+		<!-- 新闻 -->
 		<script type="text/javascript" src="js/Index_Interactive.js"></script>
-		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slideBox.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->
 		<script type="text/javascript" src="js/index2.js"></script>
-
-
+		<!-- 新闻图片 -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="icons/entypo.css">
 	</head>
+
 	<body>
 
 		<header id="masthead" class="site-header position">
@@ -32,11 +36,9 @@
 			<nav class="navbar navbar-default met-nav" role="navigation">
 				<div class="container">
 					<div class="row">
-
 						<div id="tophead">
 							<div class="container">
 								<div class="row">
-
 									<div class="col-sm-12">
 										<div class="navbar-header">
 											<button type="button" class="navbar-toggle hamburger hamburger-close collapsed" data-target="#navbar-default-collapse"
@@ -196,10 +198,8 @@
 										<li>
 											<a href="#" ​ class="">
 												场地活动申请 </a> </li>
-
 									</ul>
 								</li>
-
 							</ul>
 						</div>
 					</div>
@@ -218,23 +218,79 @@
 				<img class="cover-image" src="picture/banner1.png" sizes="(max-width: 767px) 767px" alt="">
 			</div>
 		</div>
+
 		<div class="met-index-about met-index-body" style="background-image:url();">
 			<div class="container">
-
 				<div class="content">
-					<div class="slideBox image-roll col-lg-6 col-md-6 col-sm-6 col-xs-12" id="pic">
-						<ul class="items" id="pic" style="width: 1120px; left: -560px;">
-							<li class="active" style="width: 560px; height: 300px;"><a href="dongtai1.html" target="_blank" title="走读徐汇之纺织印染"><img
-									 src="images/banner3.jpg"></a></li>
-							<li style="width: 560px; height: 300px;" class=""><a href="dongtai1.html" target="_blank" title="一场脱口秀读懂美术馆"><img
-									 src="images/banner2.jpg"></a></li>
-						</ul>
-						<div class="tips" style="opacity: 0.7;">
-							<div class="title"><a href="dongtai1.html">一场脱口秀读懂美术馆</a></div>
-							<div class="nums" style=""><a href="http:" class="" style="border-radius: 5px;"></a><a href="dongtai1.html"
-								 style="border-radius: 5px;" class="active"></a></div>
+					<div class='o-sliderContainer hasShadow ' id="pbSliderWrap3">
+						<div class='o-slider' id='pbSlider3'>
+							<div class="o-slider--item" data-image="images/1.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
+							<div class="o-slider--item" data-image="images/2.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
+							<div class="o-slider--item" data-image="images/3.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
+							<div class="o-slider--item" data-image="images/4.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
+							<div class="o-slider--item" data-image="images/5.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
+							<div class="o-slider--item" data-image="images/6.jpg">
+								<div class="o-slider-textWrap">
+									<h1 class="o-slider-title">This is a title</h1>
+									<span class="a-divider"></span>
+									<h2 class="o-slider-subTitle">This is a sub title</h2>
+								</div>
+							</div>
 						</div>
 					</div>
+					<script src='js/hammer.min.js'></script>
+					<script src='js/slider.js'></script>
+					<script>
+						$('#pbSlider3').pbTouchSlider({
+							slider_Wrap: '#pbSliderWrap3',
+							slider_Threshold: 50 ,
+							slider_Speed:400 ,
+							slider_Ease:'linear',
+							slider_Breakpoints: {
+							    default: {
+							        height: 400
+							    },
+							    tablet: {
+							        height: 300,
+							        media: 1024
+							    },
+							    smartphone: {
+							        height: 200,
+							        media: 768
+							    }
+							}
+							});
+							</script>
 					<div class="consultation col-sm-6 col-xs-12 pull-left">
 						<div class="consultation-title">
 							<a class="active" id="News1_Name" href="javascript://" target="_blank">活动掠影</a>
@@ -361,11 +417,9 @@
 
 					</div>
 				</div>
-
-
-				<a href="#" ​ title="查看更多" class="more">
+<!-- 				<a href="#" ​ title="查看更多" class="more">
 					查看更多
-				</a>
+				</a> -->
 			</div>
 		</div>
 
@@ -911,6 +965,7 @@
 
 			});
 		</script>
+
 
 	</body>
 
