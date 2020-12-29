@@ -23716,6 +23716,9 @@ div.widget-title {
 .cover-image {
 	width: 100%;
 }
+.cover-image-service {
+	width: 66%;
+}
 
 .cover-quote {
 	position: relative;
@@ -37968,7 +37971,7 @@ img.slick-loading:not([src*=base64]) {
 	position: absolute;
 	right: 0;
 	top: 0;
-	z-index: 99;
+	z-index: 100000000;
 }
 
 .site-header.position1 #tophead {
@@ -41944,3 +41947,12 @@ a:hover {
     background: rgba(0, 0, 0, 0.7);
     line-height: 30px;
     /*opacity: 0.7;*/ }
+	
+.fengexian {	
+	width: 56%;
+	margin: 0 auto;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	
+	}

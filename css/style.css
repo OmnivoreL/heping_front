@@ -382,7 +382,7 @@ a:hover {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.2);
-  z-index: 123333333;
+  z-index: 123;
 }
 
 /* line 10, ../sass/inc/_loader.scss */
@@ -703,7 +703,7 @@ a:hover {
   position: absolute;
   text-align: center;
   width: 100%;
-  z-index: 1444000;
+  z-index: 144;
   margin: 0;
   padding: 0;
 }
